@@ -1,0 +1,10 @@
+<!Frame2.html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is document title</title>
+</head>
+<body bgcolor="#AACCBB"> 
+	<h1>Hello this is Frame 2!!!</h1>
+</body>
+</html>

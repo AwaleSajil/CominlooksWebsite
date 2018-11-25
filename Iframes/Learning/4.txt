@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is document title</title>
+</head>
+<body>
+	<a name="top">Top of this pge</a><br>
+	Tis is silly text just to fill the page.Tis is silly text just to fill the page.
+	<a href="https://www.google.com/" target="_blank">Go google search</a>
+	Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.
+	<img src="GirlPower.jpg" width="240" height="120" vspace="20" hspace="5" align="right" alt="Girlpower" title="GirlPower">
+	Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.
+	<a href="innovation.html"><img src="innovation.jpg" width="320" height="240"></a>
+	Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.Tis is silly text just to fill the page.
+	<a href="#top">Go to top of the page</a>
+	</body>
+</html>

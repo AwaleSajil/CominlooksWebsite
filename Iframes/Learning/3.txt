@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is document title</title>
+</head>
+<body>
+	<dl>
+		<dt>Computer
+		<dd>Calculting machine
+		<dt>Laptop
+		<dd>Portable calculating macine
+	</dl>
+	
+	<ul type="square">
+		<li>Mango</li>
+		<li>Banana</li>
+		<li>Monkey</li>
+	</ul>
+	
+	<ol type="a" start="5">
+		<li>Musroom</li>
+		<li>Tuna</li>
+		<li>Bacon</li>
+	</ol>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#sourcecode {
+	background: #EEEEFF;
+	color: #EEEEEE;
+	-webkit-box-shadow: rgb(180,180,150) 3px 3px 7px inset; 
+	padding: 10px;
+	margin: 5px;
+	border-radius: 7px;
+}
+#sourcecode:hover {
+	-webkit-box-shadow: rgb(180,180,150) 5px 5px 10px inset; 
+}
+#output {
+	-webkit-box-shadow: rgb(120,120,150) 3px 3px 10px; 
+	border-radius: 7px;
+}
+p{
+	margin: 10px;	
+}
+	

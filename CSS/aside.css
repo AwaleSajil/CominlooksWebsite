@@ -1,0 +1,20 @@
+#aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+	font: bold 14px Tahoma;
+	list-style: none;
+	
+}
+#aside ul li {
+    display: block;
+	
+}
+#aside iframe {
+	box-shadow: rgba(120, 120, 120, 0.8) 0px 1px 10px;
+}
+#title{
+	margin-bottom: 10px;
+}

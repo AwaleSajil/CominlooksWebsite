@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Learning HTML</title>
+	<link rel="shortcut icon" href="Icons/favicon.ico">
+	<link rel="stylesheet" href="CSS\dropdown.css">
+	<link rel="stylesheet" href="CSS\main.css">
+	<link rel="stylesheet" href="CSS\learning.css">
+	<link rel="stylesheet" href="CSS\aside.css">
+	<style>
+		#nav ul li a#LearnHTML {box-shadow: rgba(237, 48, 40, 1) 0px 1px 20px inset;}
+	</style>
+</head>
+<body>
+		<div id="maindiv">
+		
+		<nav id="nav">
+			<div id="nav_wrapper">
+				<ul>
+					<li>
+						<header id="mainheader">
+							<a id="cominlooks" href="index.html"><h2 id="logo">Cominlooks</h2></a>
+						</header>
+					</li>
+					<li><a id="Home" href="index.html">Home</a>
+					</li>
+					<li> <a id="Videomode" href="Video-Mainpage.html">Video Mode</a>
+					</li>
+					<li> <a id="LearnHTML" href="LearningHTML.html">HTML</a>
+
+						<ul>
+							<li><a href="LearningHTML.html#Ch1">Ch-1 Basic HTML</a>
+							</li>
+							<li><a href="LearningHTML.html#Ch2">Ch-2 Formatting Tags</a>
+							</li>
+							<li><a href="LearningHTML.html#Ch3">Ch-3 Lists</a>
+							</li>
+							<li><a href="LearningHTML.html#Ch4">Ch-4 Image And Link</a>
+							</li>
+							<li><a href="LearningHTML.html#Ch5">Ch-5 Tables</a>
+							</li>
+							<li><a href="LearningHTML.html#Ch6">Ch-6 Form And Frame</a>
+							</li>
+							
+						</ul>
+					</li>
+					<li> <a id="Contacts" href="Contacts.html">Contacts</a>
+
+						<ul>
+							<li><a href="https://www.youtube.com/user/Cominlooks"><img src="Icons\youtube.jpg"width="14" height="14">Youtube</a>
+							</li>
+							<li><a href="https://plus.google.com/u/3/b/105350777043218196112/105350777043218196112/videos?pageId=105350777043218196112"><img src="Icons\googleplus.jpg"width="14" height="14">Google Plus</a>
+							</li>
+							<li><a href="https://twitter.com/Cominlooks"><img src="Icons\twitter.jpg"width="14" height="14">Twitter</a>
+							</li>
+							<li><a href="https://soundcloud.com/sajilawale"><img src="Icons\soundcloud.jpg"width="14" height="14">Soundcloud</a>
+							</li>
+							<li><a href="https://vimeo.com/sajil"><img src="Icons\vimeo.jpg"width="14" height="14">Vimeoo</a>
+							</li>
+							<li><a href="https://dailymotion.com/sajilawale"><img src="Icons\dailymotion.jpg"width="14" height="14">Dailymotion</a>
+							</li>
+						</ul>
+				</li>
+				<li> <a href="Aboutus.html">About Us</a>
+				</li>
+				<li> <a id="sign" href="Signin.html"><div id="button">Sign In</div></a>
+				</li>
+				<li> <a id="sign" href="Signup.html"><div id="button">Sign Up</div></a>
+				</li>
+				<li><form method=GET action="http://www.google.com/search">
+						<input type=hidden name=ie value=UTF-8>
+						<input type=hidden name=oe value=UTF-8>
+						<input type=search name=q size=21 maxlength=255 value="">
+						<input type="image" src="Icons\social-google-box-blue-icon.png" name=btnG width="20" height="20" value="Search">
+						</form>
+				</li>
+			</ul>
+    </div>
+		</nav>
+		<div id="newdiv">
+		<section id="mainsection">
+			<article>
+				<header>
+					<hgroup>
+						<a id="Ch1"><h2>Chapter-1 Basic HTML Document</h2></a>
+					</hgroup>
+				</header>
+<p>HTML stands for Hyper Text Markup Language, and it is the most widely used
+language to write Web Pages.Originally, HTML was developed with the intent of defining the structure of
+documents like headings, paragraphs, lists, and so forth to facilitate the
+sharing of scientific information between researchers.
+Now, HTML is being widely used to format web pages with the help of different
+tags available in HTML.Following is an example of an HTML document.</p>
+					<iframe id="sourcecode" src="Iframes\Learning\1.txt" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<p>Above example of HTML document uses following tags:</p>
+				<table border="1">
+				<tr><th>Tags</th><th>Uses</th><tr>
+				<tr><td><code>&lt;!DOCTYPE html&gt;</code></td><td>This tag defines the document type and HTML version.
+</td></tr>
+				<tr><td><code>&lt;html&gt;</code></td><td>This tag encloses the complete HTML document.</td></tr>
+				<tr><td><code>&lt;head&gt;</code></td><td>This tag represents the document's header which can keep
+other HTML tags.</td></tr>
+				<tr><td><code>&lt;title&gt;</code></td><td>This tag is used to mention the
+document title.</td></tr>
+				<tr><td><code>&lt;body&gt;</code></td><td>This tag represents the document's body which keeps other
+HTML tags.</td></tr>
+				<tr><td><code>&lt;h1&gt;</code></td><td>This tag represents the heading.
+</td></tr>
+				<tr><td><code>&lt;p&gt;</code></td><td>This tag represents a paragraph.
+</td></tr>
+				<tr><td><code>&lt;hr&gt;</code></td><td>This tag represents Horizontal Line</td></tr>
+				<tr><td><code>&lt;br&gt;</code></td><td>This tag represents a Line Break.</td></tr>
+				</table>
+				<p> It must show the following output:<p>
+				<iframe id="output" src="Iframes\Learning\1.html" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+			</article>
+		<article>
+				<header>
+					<hgroup>
+						<a id="Ch2"><h2>Chapter-2 Text Formatting Tags</h2></a>
+					</hgroup>
+				</header>
+				<p>
+				Tetx formating in HTML can be performed by using different tags as such as listed in the table.
+				</p>
+				<table border="1">
+					<tr><th>Tags</th><th>Uses</th></tr>
+					<tr><td>&lt;b&gt;</td><td>Makes text <b>Bold</b></td></tr>
+					<tr><td>&lt;i&gt;</td><td>Makes text <i>Italic</i></td></tr>
+					<tr><td>&lt;u&gt;</td><td>Mkakes text <u>Underlined</u></td></tr>
+					<tr><td>&lt;s&gt;</td><td>Makes text <s>Strikethrough</s></td></tr>
+					<tr><td>&lt;sub&gt;</td><td>Makes text <sub>Subscript</sub></td></tr>
+					<tr><td>&lt;sup&gt;</td><td>Makes text <sup>Superscript</sup></td></tr>
+					<tr><td>&lt;p&gt;</td><td>Defines a pragraph</td></tr>
+					<tr><td>&lt;font&gt;</td><td>Defines font color,face,size,etc</td></tr>
+					<tr><td>&lt;pre&gt;</td><td>Gives exact output as entered</td></tr>
+					<tr><td>&lt;address&gt;</td><td>It is used for footnote</td></tr>
+					<tr><td>&lt;tt&gt;</td><td>Tele Type text creates moonscape text</td></tr>
+					<tr><td>&lt;code&gt;</td><td>Gives code font text as tt tag</td></tr>
+					<tr><td>&lt;em&gt;</td><td>It is used as i tag</td></tr>
+					<tr><td>&lt;cite&gt;</td><td>It is used as i tag</td></tr>
+					<tr><td>&lt;strong&gt;</td><td>It is used as b tag</td></tr>
+					<tr><td>&lt;samp&gt;</td><td>It is similar to tt tag</td></tr>
+					<tr><td>&lt;big&gt;</td><td>Makes text big by one point</td></tr>
+					<tr><td>&lt;small&gt;</td><td>Makes text small by one point</td></tr>
+					<tr><td>&lt;blockquote&gt;</td><td>It justifies justify alignment</td></tr>
+					<tr><td>&lt;basefont&gt;</td><td>Helps to change defalt font size</td></tr>
+					<tr><td>&lt;marquee&gt;</td><td>It animates text or image in different direction with behaviors</td></tr>
+				</table>
+				<p>Following is an example of an HTML document.</p>
+				<iframe id="sourcecode" src="Iframes\Learning\2.txt" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<p>It must show the following output:</p>
+					<iframe id="output" src="Iframes\Learning\2.html" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+			</article>
+			<article>
+				<header>
+					<hgroup>
+						<a id="Ch3"><h2>Chapter-3 Creating Ordered And Unordered List</h2></a>
+					</hgroup>
+				</header>
+				<p>
+				If you have to arrange large numberof items to make a group then you can mae listof items. In HTML it provides 3 types of lists: Defination List, Ordered List,Unordered List.
+				</p>
+				<h3>Defination Lists</h3>
+					<p>It is not commonly used lists. It is mainly used to give defination of a term. The &lt;DL&gt; is used to define this lists and &lt;Dt&gt; and &lt;DD&gt; tags are used to define defination term and defination respectively.</p>
+				<h3>Unordered Lists</h3>
+					<p>An unordered lists mae ulleted list of items. The &lt;UL&gt; defines unordered lists. The &lt;LI&gt; subtag defines items in the list. Type is only one attribue of this tag which takes values like disk/circle/square.</p>
+				<h3>Ordered Lists</h3>
+					<p>An ordered list is similar to unordered list but it lists items using numbers or characters. The &lt;OL&gt; defines this tag and &lt;LI&gt; subtag defines items in the list. Type and start are its two attributes and it takes the values like 1/A/a/i and N(numbers) respectively.</p>
+				<p>Following is an example of an HTML document.</p>
+				<iframe id="sourcecode" src="Iframes\Learning\3.txt" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<p>It must show the following output:</p>
+					<iframe id="output" src="Iframes\Learning\3.html" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+					
+			</article>
+			<article>
+				<header>
+					<hgroup>
+						<a id="Ch4"><h2>Chapter-4 Inserting Image And Hyperlink</h2></a>
+					</hgroup>
+				</header>
+				<a id="Ch4_a"><h3>Inserting Image</h3></a>
+					<p>The &lt;IMG&gt; tag defines images in HTML, it has no ending tag and has following attributes:</p>
+					<table border="1">
+						<tr><th>Attributes</th><th>Uses</th></tr>
+						<tr><td>src="location of image"</td><td>Specifies URL or location of image</td></tr>
+						<tr><td>height="N"</td><td>Specifies height of image in pixels</td></tr>
+						<tr><td>width=N""</td><td>Specifies width of image in pixels</td></tr>
+						<tr><td>border="N"</td><td>Specifies image border in pixels</td></tr>
+						<tr><td>vspace=N""</td><td>Specifies vertical space around the image in pixels</td></tr>
+						<tr><td>hspace="N"</td><td>Specifies horizontal space around the image in pixels</td></tr>
+						<tr><td>align="top/bottom/middle/left/right"</td><td>Aligns the image</td></tr>
+						<tr><td>title="comments"</td><td>Specifies comments on the image</td></tr>
+						<tr><td>alt="alternate text"</td><td>Specifies alternative text to display while image is not found</td></tr>
+					</table>
+				<a id="Ch4_b"><h3>Creating Hyperlink</h3></a>
+					<p>A webpage can contain various links that take you directly to other pages and even specific parts of a given page. These links are known as hyperlinks.Hyperlinks allow visitors to navigate between Web sites by clicking on words, phrases, and images. Thus you can create hyperlinks using text or images available on a webpage.</p>
+					<p>A anchor tag &lt;a&gt; defines the hyperlink in te HTML and anything between the opening <a> tag and the closing </a> tag becomes part of the link and a user can click that part to reach to the linked document. The major attributes of this tag are href which specifies the link to te next page, target which specifies the space or area where the page will disply, name, etc. </p>
+				<p>Following is an example of an HTML document.</p>
+				<iframe id="sourcecode" src="Iframes\Learning\4.txt" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<p>It must show the following output:</p>
+					<iframe id="output" src="Iframes\Learning\4.html" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+			</article>
+			<article>
+				<header>
+					<hgroup>
+						<a id="Ch5"><h2>Chapter-5 Creating Tables</h2></a>
+					</hgroup>
+				</header>
+				<p>The &lt;table&gt; tag defines table in HTML, it have 3 main sub tags: table row &lt;tr&gt;, table header &lt;th&gt; and table data &lt;td&gt;. Some attribues of table tags are:</p>
+					<table border="1">
+						<tr><th>Attributes</th><th>Uses</th></tr>
+						<tr><td>border=N(px)</td><td>Specifies size of border of table</td></tr>
+						<tr><td>bordercolor="colorcode" or "colorname"</td><td>Specifies bordercolor of table</td></tr>
+						<tr><td>cellspacing="N"(px)</td><td>Specifies distance between cell cell's border in a table</td></tr>
+						<tr><td>cellpadding="N"(px)</td><td>Specifies distance between cell content and cell border</td></tr>
+						<tr><td>width="N"(px)</td><td>Specifies width of table or rows</td></tr>
+						<tr><td>height="N"(px)</td><td>Specifies height of table or rows</td></tr>
+						<tr><td>colspan="N"(int)</td><td>No. cell to be merged column wise in a row</td></tr>
+						<tr><td>rowspan="N"(int)</td><td>No. cell to be merged row wise in a column</td></tr>
+						<tr><td>bgcolor="colorcode or colorname"</td><td>Table or row background color</td></tr>
+						<tr><td>align="left/right/center"</td><td>Defines alignment in a table or a row</td></tr>
+					</table>
+				<h3>Creating Hyperlink</h3>
+					<p>A webpage can contain various links that take you directly to other pages and even specific parts of a given page. These links are known as hyperlinks.Hyperlinks allow visitors to navigate between Web sites by clicking on words, phrases, and images. Thus you can create hyperlinks using text or images available on a webpage.</p>
+					<p>A anchor tag &lt;a&gt; defines the hyperlink in te HTML and anything between the opening <a> tag and the closing </a> tag becomes part of the link and a user can click that part to reach to the linked document. The major attributes of this tag are href which specifies the link to te next page, target which specifies the space or area where the page will disply, name, etc. </p>
+				<p>Following is an example of an HTML document.</p>
+				<iframe id="sourcecode" src="Iframes\Learning\5.txt" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<p>It must show the following output:</p>
+					<iframe id="output" src="Iframes\Learning\5.html" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+			</article>
+			<article>
+				<header>
+					<hgroup>
+						<a id="Ch6"><h2>Chapter-6 Designing Form And Frame</h2></a>
+					</hgroup>
+				</header>
+				<h3>Creating Form</h3>
+				<p>The &lt;form&gt; tag defines form in HTML, it provides interface in webpage for entering data. Form has many elements of which most depends on the value of &lt;input type&gt;. The attribute of form are:</p>
+					<table border="1">
+						<tr><th>Attributes</th><th>Uses</th></tr>
+						<tr><td>action</td><td>Takes URL that defines where to send the form data when the submit button is clicked</td></tr>
+						<tr><td>method</td><td>Defines the HTTP method: get or post</td></tr>
+						<tr><td>type</td><td>Type of form element or form field</td></tr>
+						<tr><td>name</td><td>Unique name for the field  value</td></tr>
+						<tr><td>value</td><td>Default value of the field</td></tr>
+						<tr><td>checked</td><td>Defines the Boolean value:true/false</td></tr>
+						<tr><td>size=N(int)</td><td>Size of a form field in terms of number of characters</td></tr>
+						<tr><td>maxlength=N(int)</td><td>Maximum length of character in a field</td></tr>
+						<tr><td>readonly</td><td>Defines Boolean values:true/false</td></tr>
+						<tr><td>rows=N</td><td>No. of characters in a row for textarea</td></tr>
+						<tr><td>cols=N</td><td>No. of characters in a columns for textarea</td></tr>
+					</table>
+					<p>Here are some value of attribute type for different form elements</p>
+					<table border="1">
+						<tr><th>Elements</th><th>Values</th></tr>
+						<tr><td>Text Box</td><td>text</td></tr>
+						<tr><td>Radio Button</td><td>radio</td></tr>
+						<tr><td>Check Box</td><td>checkbox</td></tr>
+						<tr><td>Password Box</td><td>password</td></tr>
+						<tr><td>File</td><td>file</td></tr>
+						<tr><td>Button</td><td>button</td></tr>
+						<tr><td>Reset Buttons</td><td>reset</td></tr>
+						<tr><td>Submit Buttons</td><td>submit</td></tr>
+					</table>
+					<p>Other elemets of form are select list and textarea. They can be created by using &lt;select&gt; and &lt;textarea&gt; tags respectively. The &lt;option&gt; &lt;/option&gt; sub tag are used to define items in select list.</p>
+					<p>Following is an example of an HTML document.</p>
+				<iframe id="sourcecode" src="Iframes\Learning\6.txt" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<p>It must show the following output:</p>
+					<iframe id="output" src="Iframes\Learning\6.html" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<h3>Frames</h3>
+				<p>HTML frames are used to divide your browser window into multiple sections where each section can load a separate HTML document. A collection of frames in the browser window is known as a frameset. The window is divided into frames in a similar way the tables are organized: into rows and columns. The &lt;frameset&gt; defines frames with rows and cols. The &lt;frame&gt; tags inside frameset hepls to insert the HTML file with the help of scr attributes that takes the path or location of HTML file.Page containing frameset tag shouldnot contain body tag.</p>
+				<p>Following is an example of an HTML document.</p>
+				<iframe id="sourcecode" src="Iframes\Learning\frame1.txt" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<iframe id="sourcecode" src="Iframes\Learning\frame2.txt" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<iframe id="sourcecode" src="Iframes\Learning\frame3.txt" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<iframe id="sourcecode" src="Iframes\Learning\7.txt" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+				<p>It must show the following output:</p>
+					<iframe id="output" src="Iframes\Learning\7.html" width="450" height="200" frameborder="0"> 
+					Sorry Your Browser Doesnot Support Iframe, Update your Browser to Latest Version Or Choose Google Chrome.
+					</iframe>
+			</article>
+		</section>
+		<aside id="aside">
+			<h3>More on the web</h3>
+			<br>
+			<ul>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/QUQsqBqxoR4"></iframe><div id="title">Sara Bareilles-Brave</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/i7ZvETrH-I4"></iframe><div id="title">Sayaun Thunga Phool Ka Hami</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/CJu37EU9qEk"></iframe><div id="title">Intro to Bodyweight Fitness</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/oThh3_Srxtc"></iframe><div id="title">Is All Fair In Love And War?</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/GEmuEWjHr5c"></iframe><div id="title">This Will Revolutionize Education</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/_0J4dRqg7CE"></iframe><div id="title">How To Make Magic Mud - From a Potato!</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/sQdLttUh_b0"></iframe><div id="title">Instant Ice - Waterbending In Real Life!</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/yUYxk-y-tU8"></iframe><div id="title">Homemade Rocket Fuel (R-Candy)</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/7J2AhMZ7wdQ"></iframe><div id="title">PROXiMITY (A Short Film by Ryan Connolly)</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/BOEi2mWu6o4"></iframe><div id="title">Adobe and the Frog</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/Uz72-78bmpE"></iframe><div id="title">Should You Listen to Your Parents?</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/Cs6DdQ6SwbE"></iframe><div id="title">The Magic of Science</div></li>
+					<li><iframe width="200" height="112" frameborder="0" src="http://www.youtube.com/embed/g_IaVepNDT4"></iframe><div id="title">How Does a Quantum Computer Work?</div></li>
+				</ul>
+		</aside>
+		</div>
+		<footer id="mainfooter">
+			<p>© 2015 Cominlooks</p>
+		</footer>
+	</div>
+</body>
+</html>

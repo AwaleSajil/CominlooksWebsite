@@ -1,0 +1,19 @@
+#description {
+	color: #000000;
+    display: block;
+    padding: 10px;
+	padding-left: 0px;
+    text-decoration: none;
+	opacity: 0.6;
+	background: #FFFFFF;
+	-webkit-transition:opacity 0.5s;
+}
+#description:hover{
+	opacity: 0.9;
+}
+#choose {
+	color: white;
+	position: fixed;
+	top: 180px;
+	left: 25px;
+}

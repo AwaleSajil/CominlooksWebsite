@@ -1,0 +1,10 @@
+<!Frame3.html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is document title</title>
+</head>
+<body bgcolor="#99EEFF"> 
+	<h1>Hello this is Frame 3 !!</h1>
+</body>
+</html>

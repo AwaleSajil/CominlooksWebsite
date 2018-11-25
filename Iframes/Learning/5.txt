@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is document title</title>
+</head>
+<body>
+	<table border="2" bordercolor="green" cellspacing="5" cellpadding="10" width="250" height="150" align="right">
+	<tr>
+	<th bgcolor="red">SN</th>
+	<th>Name</th>
+	<th>Job</th>
+	</tr>
+	<tr>
+	<td>1</td>
+	<td>Sajil</td>
+	<td>Researcher</td>
+	</tr>
+	<tr>
+	<td>2</td>
+	<td>Mahabir</td>
+	<td>Army</td>
+	</tr>
+	<tr>
+	<td>3</td>
+	<td>Reja</td>
+	<td>Collector</td>
+	</tr>
+	</table>
+	<table border="1" bgcolor="orange" width=90%>
+	  <tr>
+		<th>Month</th>
+		<th>Savings</th>
+	  </tr>
+	  <tr>
+		<td>January</td>
+		<td>RS190</td>
+	  </tr>
+	  <tr>
+		<td>February</td>
+		<td>RS200</td>
+	  </tr>
+	  <tr>
+		<td colspan="2">Sum: RS390</td>
+	  </tr>
+	</table>
+	<table border="1" width="300" bgcolor="pink">
+	  <tr>
+		<th>Month</th>
+		<th>Savings</th>
+		<th>Savings for holiday</th>
+	  </tr>
+	  <tr>
+		<td>January</td>
+		<td>RS390100</td>
+		<td rowspan="2">RS5000</td>
+	  </tr>
+	  <tr>
+		<td>February</td>
+		<td>Rs1280</td>
+	  </tr>
+</table>
+</body>
+</html>

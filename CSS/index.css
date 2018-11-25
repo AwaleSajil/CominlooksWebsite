@@ -1,0 +1,144 @@
+/* Big Box= 262.656*100, small box= 126.328*100 */
+#mainsection div div {
+	-webkit-box-shadow: rgb(120,120,120) 5px 5px 10px; 
+}
+#mainsection div div :hover {
+	-webkit-box-shadow: rgb(120,120,120) 7px 7px 5px; 
+}
+#mainsection div div :active {
+	-webkit-box-shadow: rgb(120,120,120) -5px -5px 5px ; 
+}
+#mainsection a {
+	text-decoration: none;
+}
+#row-a {
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	width: auto;
+	-webkit-box-align:center;
+}
+#button-a {
+	padding: 0px;
+	margin-right: 40px;
+	margin-left: 40px;
+	background: black;
+	height: 100px;
+}
+
+#button-b {
+
+	padding: 0px;
+	margin-right: 40px;
+	height: 100px;
+}
+#button-c {
+background: black;
+	padding: 0px;
+	margin-right: 40px;
+	height: 100px;
+}
+#row-b {
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	width: auto;
+	-webkit-box-align:center;
+	margin-top: 10px;
+}
+#button-d{
+background: black;
+	padding: 0px;
+	margin-right: 10px;
+	margin-left: 40px;
+	height: 100px; 
+}
+#button-e {
+background: black;
+	padding: 0px;
+	margin-right: 40px;
+	height: 100px;
+}
+#button-f {
+background: black;
+	padding: 0px;
+	margin-right: 40px;
+	height: 100px;
+}
+#button-g {
+background: black;
+	padding: 0px;
+	margin-right: 40px;
+	height: 100px;
+	
+}
+#row-c {
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	width: auto;
+	-webkit-box-align:center;
+	margin-top: 10px;
+}
+#button-h{
+background: black;
+	padding: 0px;
+	margin-right: 40px;
+	margin-left: 40px;
+	height: 100px;
+}
+#button-i {
+background: white;
+	padding: 0px;
+	margin-right: 10px;
+	height: 100px;
+}
+#button-j {
+background: black;
+	padding: 0px;
+	margin-right: 40px;
+	height: 100px;
+}
+#button-k {
+background: black;
+	padding: 0px;
+	margin-right: 10px;
+	height: 100px;
+	
+}
+#button-l {
+background: black;
+	padding: 0px;
+	margin-right: 40px;
+	height: 100px;
+	
+}
+#row-d {
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	width: auto;
+	-webkit-box-align:center;
+	margin-top: 10px;
+}
+#button-m{
+background: black;
+	padding: 0px;
+	margin-right: 10px;
+	margin-left: 40px;
+	height: 100px; 
+}
+#button-n {
+background: black;
+	padding: 0px;
+	margin-right: 40px;
+	height: 100px;
+}
+#button-o {
+background: black;
+	padding: 0px;
+	margin-right: 40px;
+	height: 100px;
+}
+#button-p {
+background: black;
+	padding: 0px;
+	margin-right: 40px;
+	height: 100px;
+}

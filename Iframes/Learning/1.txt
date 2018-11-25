@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is document title</title>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>Document content goes here.....</p>
+<hr>
+Hi my name is Sajil Awale.<br>
+I live in Patan.
+</body>
+</html>
